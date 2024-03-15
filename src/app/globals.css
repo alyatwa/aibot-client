@@ -2,6 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "poppinsRegular";
+  src: url("/poppins/Poppins-Regular.otf") format("opentype");
+  font-weight: regular;
+  font-style: regular;
+}
+
+@font-face {
+  font-family: "poppinsThin";
+  src: url("/poppins/Poppins-Thin.otf") format("opentype");
+  font-weight: thin;
+  font-style: thin;
+}
+@font-face {
+  font-family: "poppinsLight";
+  src: url("/poppins/Poppins-Light.otf") format("opentype");
+  font-weight: light;
+  font-style: light;
+}
+
+@font-face {
+  font-family: "poppinsBold";
+  src: url("/poppins/Poppins-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "poppinsMedium";
+  src: url("/poppins/Poppins-Medium.otf") format("opentype");
+  font-weight: medium;
+  font-style: medium;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,7 +51,8 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb));
+  color: unset; */
   background: linear-gradient(
       to bottom,
       transparent,
