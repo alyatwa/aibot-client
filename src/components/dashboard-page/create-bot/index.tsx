@@ -15,15 +15,15 @@ const CreateBot = () => {
     {
       label: "Create Marketing bot",
       icon: LineChart,
-      color: "#2697ff",
-      bg: "bg-blue-300/30",
+      color: "#ffc107",
+      bg: "bg-yellow-300/30",
       value: "marketing_b5ot",
     },
     {
       label: "Create Marketing bot",
       icon: LineChart,
-      color: "#2697ff",
-      bg: "bg-blue-300/30",
+      color: "#fd6161",
+      bg: "bg-red-300/30",
       value: "marketing_bot",
     },
     {

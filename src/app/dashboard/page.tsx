@@ -1,10 +1,11 @@
 import CreateBot from "@/components/dashboard-page/create-bot";
+import { Box } from "@chakra-ui/react";
 
 const Dashboard = () => {
   return (
-    <div>
+    <Box display="flex" h="full" justifyContent="center" alignItems="center">
       <CreateBot />
-    </div>
+    </Box>
   );
 };
 export default Dashboard;
